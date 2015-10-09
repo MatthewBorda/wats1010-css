@@ -1,6 +1,110 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/*Notes for writeup
+Notice that syntax matters (.JPG vs. jpg) 
+Floating the aside vs. floating the image
+Using visual references vs. code output /  data files results
+Thought I was doing something wrong until I got it onto a bigger xcreen*/
 
-h1 {
-    color: green;
+body {
+	
+	
+	width: 750px;
+	padding: 10px;
+	margin: auto;
+	font-family: Georgia, serif;
+	background: rgb(214,214,180); 
+	background: rgba(214,214,180,01);  
 }
+
+.page-header {
+	padding-left: 10px;
+	background-image: url('images/hiking-the-sand-dunes.jpg');
+	background-position: center;
+	background-size:1000px, 100px;
+	font-family: "Book Antiqua";
+	padding: 25px;
+	border: 10pt;
+    border-radius: 15px;
+	
+}
+.crop img {
+    width: 418px; 
+    height: 240px; 
+    overflow: hidden; 
+}
+
+.page-header h1 {
+	margin:0;	
+}
+
+.page-header p {
+	margin:0;	
+}
+.more-info {
+	float: right;	
+	width: 225px;
+	height: auto;
+	margin: 0;
+	padding:0;
+}
+
+.more-info img{
+	width: 200px;
+}
+.info-links{
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;	
+}
+.social-links  {
+    
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+        
+}
+
+.social-links li {
+	display:inline;	
+}
+	
+.social-links a{
+    display:inline-block;
+
+}
+
+#content {
+	width: 600px;	
+}
+ 
+.poem {
+	list-style: none;
+	line-height: 25px;
+	font-style: italic;	   
+
+}
+
+.poem ::first-letter { 
+    font-size: 110%;
+	font-style: normal;	   
+	
+
+}
+.content-footer {
+	padding-left: 10px;
+}
+.page-footer {
+	padding-left: 10px;
+	clear: both;
+	background: rgb(128, 128, 108);
+	background: rgba(128, 128, 108,.5);
+	border: 10pt;
+    border-radius: 15px;
+
+}
+
